@@ -18,18 +18,14 @@
 
     <!-- Main CSS-->
     <link href="{{ asset('css/main.css')}}" rel="stylesheet" media="all">
+    <script src="{{ mix('js/jquery.min.js') }}" type="text/javascript"></script>
 </head>
 
 <body>
     @yield('content')
 
-<!-- Jquery JS-->
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-
-
 <!-- Main JS-->
-<script src="{{ asset('js/global.js') }}"></script>
+<script src="{{ mix('js/global.js') }}" type="text/javascript"></script>
 
 </body>
-
 </html>
